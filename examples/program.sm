@@ -1,0 +1,19 @@
+def a: string = "hello"
+def title: array of string = ["experi\"-mental", "program"]
+def stat: number = 1.1 + -2
+stat = stat + 2
+for (def i : number = 0, i <= 5, i++) {
+    if (i % 2 == 0) {
+        continue
+    } else if (i == 3) {
+        continue
+    } else {
+        stat += i
+    }
+}
+print(title[0], (stat - 4), title[1])
+# Example of a Function!
+def hello: fn = fn(greet: string, name: string): bool {
+    print(greet + " " + name)
+    return true
+}
